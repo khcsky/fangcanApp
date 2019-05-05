@@ -1,0 +1,54 @@
+$Maincolor:#e94747;
+.city_content{
+    
+    .left_div{
+            width:92%;
+            height:40rem;
+            overflow: scroll;
+            .hotcity_content{
+       
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                .hotcity{
+                    padding: 0.5rem 1.5rem;
+                    margin-bottom: 0.5rem;
+                    border: 1px solid #ccc;
+                }
+               
+            }
+        .city_title{
+            // background-color: rgb(231, 229, 229);
+            height: 2rem;
+            margin: 0;
+            line-height: 2rem;
+            background: #eee;
+           
+            
+         }
+         ul{      padding: 0;
+            .city_item{
+
+                height: 2rem;
+            }
+            .am-list-body {
+                height: 2rem;
+                line-height: 2rem;
+                padding-left: 1rem;
+            }
+         }
+
+    }
+   .right_div{
+       width: 2rem;
+      
+       position: fixed;
+       top:10rem;
+       right:0px;
+       background-color: #faf5f5;
+       .right_city{
+              margin: 0;
+              text-align: center;
+       }
+   }
+}

@@ -1,0 +1,95 @@
+$Maincolor:#e94747;
+body{
+    height: 100%;
+    // 顶部搜索栏样式
+    .nav_bar{
+            height: 3rem;
+            background-color: $Maincolor;
+            .nav_bar_pic{
+                width: 0.6rem;
+                height: 0.8rem;
+            }
+            .nav_bar_citys{
+                font-size: 16px;
+                font-weight: 500;
+                color: #fff;
+            }
+            .am-search{
+                background-color: $Maincolor;
+            }
+            .nav_bar_imgs{
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+            .am-search {
+                height: 40px;
+                width: 12rem;
+            }
+            .nav_bar_search{
+                display: flex;
+                align-items: center;
+                width: 60%;
+                height: 2.4rem;
+                background: #fff;
+                border-radius: 40px;
+                color: rgb(170, 168, 168);
+                font-size: 16px
+            }  
+    }
+    .content_pic{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+       
+        background-color: $Maincolor;
+        
+        
+    }
+    .house_baike{
+        color:$Maincolor;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .house_baike_word{
+        color:rgb(133, 131, 131);
+    }
+    .bgcolor{
+        background-color: rgb(241, 239, 239) ;
+    }
+    //覆盖图标大小样式
+    .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon {
+        width: 50%!important;
+    }
+    .am-tab-bar-bar{
+        position: fixed;
+    }
+    // 猜你喜欢样式
+    .list_left{
+        display: flex;
+        .list_left_img{
+            width: 4.4rem;
+            height: 5rem;
+        }
+        .list_left_rt{
+            margin-left: 0.5rem;
+            .list_left_adder{
+                font-size: 18px;
+                font-weight: 700;
+                
+            }
+            .list_left_adderss{
+                color:rgb(133, 131, 131);
+                font-size:12px;
+                margin-top: 0.4rem; 
+            
+                
+            }
+        }
+    }
+    .list_right{
+        color:$Maincolor;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+ }

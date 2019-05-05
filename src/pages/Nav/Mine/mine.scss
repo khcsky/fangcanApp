@@ -1,0 +1,45 @@
+$Maincolor:#e94747;
+.my_content{
+    
+    height: 10rem;
+    background:$Maincolor; 
+    
+     .my_content_header_tp{
+         display: flex;
+         justify-content: space-around;
+         color: #fff;
+         .userimg{
+             width: 4rem;
+             height: 4rem;
+             border-radius: 50%;
+         }
+         p:first-child{font-size: 20px; margin: 0;}
+         p:last-child{font-size:14px }
+     }
+     .my_content_header_bt{
+         text-align: center;
+         color: #fff;
+         &>div{
+             margin-left: 4%;
+            padding-right: 20px;
+             border-right: 1px solid #fff;
+         }
+         &>div:last-child{
+             border: none;
+         }
+         .my_word{
+            display:inline-block;
+            position: relative;
+             top:-10px;
+             right: 10px;
+          }
+     }
+     
+
+
+     .my_icon{
+         width: 2rem;
+         height: 2rem;
+     }
+
+}

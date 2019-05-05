@@ -1,0 +1,35 @@
+{
+  "name": "housapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "4.3.0",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "antd-mobile": "^2.2.11",
+    "axios": "^0.18.0",
+    "better-scroll": "^1.15.2",
+    "node-sass": "^4.11.0",
+    "qs": "^6.7.0",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1"
+  }
+}

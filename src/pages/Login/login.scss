@@ -1,0 +1,23 @@
+$Maincolor:rgb(233, 71, 71);
+body{
+    height: 100%;
+    background: #fff;
+    
+    .login_content{
+      
+        .pic{
+            width: 20rem;
+            height: 16rem;
+        }
+        .reg_pwd{
+            span{
+              color:$Maincolor
+            }
+        }
+        .useragree{
+            position: absolute;
+            color: rgb(187, 183, 183);
+            bottom: 0.5rem;
+        }
+    } 
+}
